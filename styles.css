@@ -1,0 +1,24 @@
+.banner {
+  background: linear-gradient(
+    to bottom right,
+    rgb(118, 40, 163),
+    rgb(61, 43, 226),
+    rgb(118, 40, 163)
+  );
+}
+.nav {
+  background: linear-gradient(to right, rgb(118, 40, 163), rgb(118, 40, 214));
+}
+.btn {
+  background-color: blueviolet;
+  color: white;
+}
+#navmenu a {
+  color: white;
+}
+#brand a h2 {
+  color: white;
+}
+#brand button span {
+  color: white;
+}
