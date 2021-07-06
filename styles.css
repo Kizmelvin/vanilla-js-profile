@@ -26,14 +26,17 @@ body {
 #navmenu a {
   color: white;
 }
-#brand a h2 {
+#brand .img {
+  font-size: 1.6rem;
+  font-family: "Great Vibes", cursive;
   color: white;
+  font-weight: 600;
 }
 #brand button span {
   color: white;
 }
 #name {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
 }
 @media (min-width: 1098px) {
