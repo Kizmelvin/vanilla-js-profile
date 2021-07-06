@@ -26,7 +26,7 @@
   <body>
     <div class="top">
       <!-- nav -->
-      <nav class="navbar navbar-expand-lg nav navbar-light py-3">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark py-3" id="nav">
         <div class="container" id="brand">
           <a href="#" class="navbar-brand text-center">
             <h2>Chidi Eze</h2>
@@ -40,7 +40,10 @@
           >
             <span style="color: white" class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navmenu">
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navmenu"
+          >
             <ul class="navbar-nav ms-auto">
               <!-- <li class="nav-item">
                 <a href="#" class="nav-link"> Home </a>
@@ -61,7 +64,7 @@
       </nav>
       <!-- banner -->
 
-      <section class="text-gray p-5 text-center banner text-md-start mb-5">
+      <section class="text-gray p-5 text-center banner text-md-start my-5">
         <div class="container">
           <div class="d-lg-flex align-items-center justify-content-between">
             <div class="w-30">
@@ -319,8 +322,60 @@
               rows="5"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Send</button>
         </form>
+      </div>
+    </section>
+    <section>
+      <div class="Social container-md p-5">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a
+              href="https://twitter.com/kizmelvin"
+              rel="noreferrer"
+              target="_blank"
+              class="nav-link"
+            >
+              <i
+                class="bi-twitter"
+                style="font-size: 1.5rem; color: gray"
+                role="img"
+                aria-label="Twitter"
+              ></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://github.com/Kizmelvin"
+              rel="noreferrer"
+              target="_blank"
+              class="nav-link"
+            >
+              <i
+                class="bi-github"
+                style="font-size: 1.5rem; color: gray"
+                role="img"
+                aria-label="GitHub"
+              ></i>
+              <!-- <FaGithub style={{ color: "white" }} /> -->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.linkedin.com/in/chidi-eze-5621b11bb/"
+              rel="noreferrer"
+              target="_blank"
+              class="nav-link"
+            >
+              <i
+                class="bi-linkedin"
+                style="font-size: 1.5rem; color: gray"
+                role="img"
+                aria-label="Linkedin"
+              ></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
